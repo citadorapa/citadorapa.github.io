@@ -1,0 +1,312 @@
+body{
+	margin: 0;
+	font-family: 'Righteous', cursive;
+	background-color: #f0f0f0;
+	overflow-x: hidden;
+}
+
+header{
+	margin: 0;
+	padding: 16px;
+	background-color: #000000;
+}
+
+h1{
+	color: #ffffff;
+	font-size: 32px;
+	animation-name: mover;
+	animation-duration: 1s;
+	position: relative;
+	animation-direction: reverse;
+}
+
+h2{
+	text-align: center;
+	padding: 16px;
+	font-size: 28px;
+	animation-name: aparecer;
+	animation-duration: 1s;
+	position: relative;
+}
+
+h4{
+	font-size: 22px;
+	padding: 40px;
+}
+
+img{
+	height: 8%;
+	width: 8%;
+	float: left;
+	padding: 16px;
+}
+
+label{
+	padding: 32px;
+	font-size: 20px;
+}
+
+input{
+	margin: 16px;
+	padding: 4px 64px;
+}
+
+table{
+    margin: 0 auto;
+}
+
+button{
+	background-color: #000000;
+    color: #ffffff;
+    padding: 8px 128px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+	margin-top: 64px;
+	padding: 16px;
+	background-color: #000000;
+}
+
+.parrafo_citar1{
+	text-align: center;
+	padding: 8px;
+}
+
+.parrafo_citar2{
+	padding: 8px;
+}
+
+.texto_de_inicio{
+	margin: 10px 200px;
+	animation-name: aparecer;
+	animation-duration: 1s;
+	position: relative;
+	text-align: center;
+}
+
+
+.opcion_de_citar1{
+	background-color: #ffffff;
+	margin: 10px 200px;
+	animation-name: mover;
+	animation-duration: 0.5s;
+	position: relative;
+	animation-direction: reverse;
+}
+
+.opcion_de_citar2{
+	background-color: #ffffff;
+	margin: 10px 200px;
+	animation-name: mover;
+	animation-duration: 0.7s;
+	position: relative;
+	animation-direction: reverse;
+}
+
+.opcion_de_citar3{
+	background-color: #ffffff;
+	margin: 10px 200px;
+	animation-name: mover;
+	animation-duration: 1s;
+	position: relative;
+	animation-direction: reverse;
+}
+
+.citar{
+	margin: 10px 200px;
+	background-color: #ffffff;
+	animation-name: aparecer;
+	animation-duration: 1s;
+	position: relative;
+}
+
+.informacion{
+	margin: 10px 200px;
+	animation-name: aparecer;
+	animation-duration: 1s;
+	position: relative;
+}
+
+.citartitulo{
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	font-size: 28px;
+}
+
+.despedida{
+	font-size: 32px;
+	text-align: center;
+	color: #ffffff;
+	animation-name: mover;
+	animation-duration: 1s;
+	position: relative;
+	animation-direction: reverse;
+}
+
+@keyframes mover{
+
+	0%{
+		left: 0;
+	}
+
+	100%{
+		left: 100%;
+	}
+}
+
+@keyframes aparecer{
+
+	0%{
+		opacity: 0%
+	}
+
+	25%{
+		opacity: 25%;
+	}
+
+	50%{
+		opacity: 50%
+	}
+
+	75%{
+		opacity: 75%
+	}
+
+	100%{
+		opacity: 100%
+	}
+}
+
+@media only screen and (max-width: 950px){
+
+	.opcion_de_citar1{
+		margin: 32px 50px;
+	}
+
+	.opcion_de_citar2{
+		margin: 32px 50px;
+	}
+
+	.opcion_de_citar3{
+		margin: 32px 50px;
+	}
+
+	.texto_de_inicio{
+		margin: 32px 59px;
+	}
+
+	.citar{
+		margin: 32px 50px;
+	}
+
+	img{
+		width: 64px;
+		height: 64px;
+		padding: 32px;
+		float: left;
+	}
+
+	h4{
+		font-size: 16px;
+	}
+
+	.citartitulo{
+		font-size: 24px;
+	}
+
+	label{
+		font-size: 22px;
+		text-align: justify;
+		padding: 1px;
+	}
+
+	input{
+		padding: 1px 2px;
+	}
+
+	.despedida{
+		font-size: 16px;
+	}
+
+	p{
+		font-size: 20px;
+	}
+
+	.informacion{
+		margin: 32px 50px;
+	}
+
+}
+
+@media only screen and (max-width: 565px){
+
+	.opcion_de_citar1{
+		margin: 7px 10px;
+	}
+
+	.opcion_de_citar2{
+		margin: 7px 10px;
+	}
+
+	.opcion_de_citar3{
+		margin: 7px 10px;
+	}
+
+	.texto_de_inicio{
+		margin: 7px 10px;
+	}
+
+	.citar{
+		margin: 7px 10px;
+	}
+
+	.informacion{
+		margin: 7px 10px;
+	}
+
+
+	img{
+		width: 64px;
+		height: 64px;
+		padding: 32px;
+		float: left;
+	}
+
+	h4{
+		font-size: 16px;
+	}
+
+	.citartitulo{
+		font-size: 24px;
+	}
+
+	label{
+		font-size: 14px;
+		text-align: justify;
+		padding: 1px;
+	}
+
+	input{
+		padding: 1px 2px;
+	}
+
+	button{
+		padding: 8px 64px;
+	}
+
+	.despedida{
+		font-size: 16px;
+	}
+
+	footer{
+		margin-top: 32px; 
+	}
+
+	p{
+		font-size: 16px;
+	}
+
+}
