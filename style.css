@@ -109,7 +109,34 @@ footer{
 	background-color: #ffffff;
 	margin: 10px 200px;
 	animation-name: mover;
-	animation-duration: 1s;
+	animation-duration: 0.9s;
+	position: relative;
+	animation-direction: reverse;
+}
+
+.opcion_de_citar4{
+	background-color: #ffffff;
+	margin: 10px 200px;
+	animation-name: mover;
+	animation-duration: 1.1s;
+	position: relative;
+	animation-direction: reverse;
+}
+
+.opcion_de_citar5{
+	background-color: #ffffff;
+	margin: 10px 200px;
+	animation-name: mover;
+	animation-duration: 1.3s;
+	position: relative;
+	animation-direction: reverse;
+}
+
+.opcion_de_citar6{
+	background-color: #ffffff;
+	margin: 10px 200px;
+	animation-name: mover;
+	animation-duration: 1.5s;
 	position: relative;
 	animation-direction: reverse;
 }
@@ -144,6 +171,12 @@ footer{
 	animation-duration: 1s;
 	position: relative;
 	animation-direction: reverse;
+}
+
+.redes_sociales{
+	color: #ffffff;
+	font-size: 16px;
+	padding: 8px;
 }
 
 @keyframes mover{
@@ -191,6 +224,18 @@ footer{
 	}
 
 	.opcion_de_citar3{
+		margin: 32px 50px;
+	}
+
+	.opcion_de_citar4{
+		margin: 32px 50px;
+	}
+
+	.opcion_de_citar5{
+		margin: 32px 50px;
+	}
+
+	.opcion_de_citar6{
 		margin: 32px 50px;
 	}
 
@@ -252,6 +297,18 @@ footer{
 	}
 
 	.opcion_de_citar3{
+		margin: 7px 10px;
+	}
+
+	.opcion_de_citar4{
+		margin: 7px 10px;
+	}
+
+	.opcion_de_citar5{
+		margin: 7px 10px;
+	}
+
+	.opcion_de_citar6{
 		margin: 7px 10px;
 	}
 
