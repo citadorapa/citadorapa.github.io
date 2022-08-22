@@ -59,6 +59,24 @@
 		<h4>Para citar un periodico haz click <a href="#citar3">aqui</a> para continuar.</h4>
 	</div>
 
+	<div class="opcion_de_citar4">
+
+		<img src="imagenes/citarpdf.png" alt="Icono de PDF">
+		<h4>Para citar un PDF haz click <a href="#citar4">aqui</a> para continuar.</h4>
+	</div>
+
+	<div class="opcion_de_citar5">
+
+		<img src="imagenes/citarcancion.png" alt="Icono de cancion">
+		<h4>Para citar una cancion haz click <a href="#citar5">aqui</a> para continuar.</h4>
+	</div>
+
+	<div class="opcion_de_citar6">
+
+		<img src="imagenes/citarvideo.png" alt="Icono de video">
+		<h4>Para citar un video haz click <a href="#citar6">aqui</a> para continuar.</h4>
+	</div>
+
 	<br>
 
 	<article class="informacion">
@@ -223,8 +241,130 @@
 		
 	</div>
 
+	<div class="citar">
+
+		<form>
+			<h4 class="citartitulo" id="citar4">Introduce los datos del PDF a citar</h4>
+
+			<table>
+				<tr>
+					<td><label>Titulo del PDF:</label></td>
+					<td><input type="text" name="" id="titulo_pdf" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+				<tr>
+					<td><label>Autor o autores:</label></td>
+					<td><input type="text" name="" id="autor_pdf" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+				<tr>
+					<td><label>Año de publicacion:</label></td>
+					<td><input type="text" name="" id="fecha_pdf" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+				<tr>
+					<td><label>URL:</label></td>
+					<td><input type="text" name="" id="url_pdf" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+			</table>
+
+			<button type="button" onclick="citaropcion4();">Haz click aqui para citar</button>
+
+			<p class="parrafo_citar1">Su cita es:</p>
+			<p class="parrafo_citar2"><span id="res_autor_pdf"></span>. (<span id="res_fecha_pdf"></span>). <span id="res_titulo_pdf"></span> [PDF]. Sitio web: <span id="res_url_pdf"></span></p>
+
+		</form>
+		
+	</div>
+
+			<div class="citar">
+
+		<form>
+			<h4 class="citartitulo" id="citar5">Introduce los datos de la cancion a citar</h4>
+
+			<table>
+				<tr>
+					<td><label>Titulo de la cancion:</label></td>
+					<td><input type="text" name="" id="titulo_cancion" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+				<tr>
+					<td><label>Artista o artistas:</label></td>
+					<td><input type="text" name="" id="autor_cancion" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+				<tr>
+					<td><label>Año de publicacion:</label></td>
+					<td><input type="text" name="" id="fecha_cancion" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+				<tr>
+					<td><label>Titulo del album:</label></td>
+					<td><input type="text" name="" id="album_cancion" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+				<tr>
+					<td><label>Grabadora:</label></td>
+					<td><input type="text" name="" id="grabadora_cancion" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+				<tr>
+					<td><label>URL:</label></td>
+					<td><input type="text" name="" id="url_cancion" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+			</table>
+
+			<button type="button" onclick="citaropcion5();">Haz click aqui para citar</button>
+
+			<p class="parrafo_citar1">Su cita es:</p>
+			<p class="parrafo_citar2"><span id="res_autor_cancion"></span>. (<span id="res_fecha_cancion"></span>). <span id="res_titulo_cancion"></span> [Canción]. En <span id="res_album_cancion"></span>. <span id="res_grabadora_cancion"></span>. URL: <span id="res_url_cancion"></span></p>
+
+		</form>
+		
+	</div>
+
+	</div>
+
+			<div class="citar">
+
+		<form>
+			<h4 class="citartitulo" id="citar6">Introduce los datos del video a citar</h4>
+
+			<table>
+				<tr>
+					<td><label>Titulo del video:</label></td>
+					<td><input type="text" name="" id="titulo_video" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+				<tr>
+					<td><label>Autor o autores:</label></td>
+					<td><input type="text" name="" id="autor_video" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+				<tr>
+					<td><label>Año de publicacion:</label></td>
+					<td><input type="text" name="" id="fecha_video" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+				<tr>
+					<td><label>Usuario del autor(es):</label></td>
+					<td><input type="text" name="" id="usuario_video" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+				<tr>
+					<td><label>Plataforma:</label></td>
+					<td><input type="text" name="" id="plataforma_video" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+				<tr>
+					<td><label>URL:</label></td>
+					<td><input type="text" name="" id="url_video" required="" placeholder="Escriba aqui por favor:"></td>
+				</tr>
+			</table>
+
+			<button type="button" onclick="citaropcion6();">Haz click aqui para citar</button>
+
+			<p class="parrafo_citar1">Su cita es:</p>
+			<p class="parrafo_citar2"><span id="res_autor_video"></span>. [<span id="res_usuario_video"></span>] (<span id="res_fecha_video"></span>). <span id="res_titulo_video"></span>. [Video]. <span id="res_plataforma_video"></span>. URL: <span id="res_url_video"></span></p>
+
+		</form>
+		
+	</div>
+
+		<div class="informacion">
+			<h2 class="apainformacion">Citas y Referencias:</h2>
+			<p class="apainformacion">N/A. (N/A). Guía normas APA 7ma edicion [PDF]. <br> Sitio web: <a href="https://normas-apa.org/wp-content/uploads/Guia-Normas-APA-7ma-edicion.pdf" target="_BLANK">https://normas-apa.org/wp-content/uploads/Guia-Normas-APA-7ma-edicion.pdf</a></p>
+		</div>
+
 	<footer>
-		<p class="despedida">Si te ha servido y gustado esta pagina, por favor compartela con tus conocidos.</p>
+		<p class="despedida">Si te ha servido y gustado esta pagina, por favor compartela con tus conocidos. <br><br> <a href="https://www.tiktok.com/@citadorapa.github.io" target="_BLANK" class="redes_sociales">Tik Tok</a> <a href="https://www.youtube.com/channel/UCtFWTQoXQ_bWZhyu0hXYv-A" target="_BLANK" class="redes_sociales">Youtube</a> <a href="https://www.facebook.com/Citador-APA-citadorapagithubio-102715315899446/" target="_BLANK" class="redes_sociales">Facebook</a></p>
 	</footer>
 
 </body>
