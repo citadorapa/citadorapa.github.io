@@ -141,6 +141,15 @@ footer{
 	animation-direction: reverse;
 }
 
+.opcion_de_citar7{
+	background-color: #ffffff;
+	margin: 10px 200px;
+	animation-name: mover;
+	animation-duration: 1.7s;
+	position: relative;
+	animation-direction: reverse;
+}
+
 .citar{
 	margin: 10px 200px;
 	background-color: #ffffff;
@@ -239,6 +248,10 @@ footer{
 		margin: 32px 50px;
 	}
 
+	.opcion_de_citar7{
+		margin: 32px 50px;
+	}
+
 	.texto_de_inicio{
 		margin: 32px 59px;
 	}
@@ -309,6 +322,10 @@ footer{
 	}
 
 	.opcion_de_citar6{
+		margin: 7px 10px;
+	}
+
+	.opcion_de_citar7{
 		margin: 7px 10px;
 	}
 
