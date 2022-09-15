@@ -117,3 +117,22 @@ function citaropcion6() {
 	document.getElementById("res_url_video").innerHTML = url4;
 
 }
+
+function citaropcion7() {
+
+	var titulo7 = document.getElementById('titulo_img').value;
+	document.getElementById("res_titulo_img").innerHTML = titulo7;
+
+	var autor6 = document.getElementById('autor_img').value;
+	document.getElementById("res_autor_img").innerHTML = autor6;
+
+	fecha6 = document.getElementById('fecha_img').value;
+	document.getElementById("res_fecha_img").innerHTML = fecha6;
+
+	fuente1 = document.getElementById('fuente_img').value;
+	document.getElementById("res_fuente_img").innerHTML = fuente1;
+
+	licencia1 = document.getElementById('licencia_img').value;
+	document.getElementById("res_licencia_img").innerHTML = licencia1;
+
+}
